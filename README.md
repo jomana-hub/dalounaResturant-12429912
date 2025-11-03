@@ -34,7 +34,7 @@ This project was built to demonstrate:
 
 ## 🚀 Live Preview
 You can view the project here:  
-👉 [Dalouna Restaurant - GitHub Pages](#)  
+👉 [Dalouna Restaurant - GitHub Pages](https://github.com/jomana-hub/dalounaResturant-12429912/tree/main )  
 
 ## 👩‍💻 Author
 *Jomana Salahat*  
