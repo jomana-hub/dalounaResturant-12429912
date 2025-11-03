@@ -21,7 +21,7 @@ body
   justify-content: space-between;
   align-items: center;
 }
-.site-header h1 {
+.site-header h2 {
   margin: 0;
   font-size: 1.8rem;
 }
