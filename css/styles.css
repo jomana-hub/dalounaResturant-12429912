@@ -1,0 +1,364 @@
+/* 
+ css/styles.css 
+ Student Name: Jumana Barakat Adnan Salahat
+ Student Id: 12429912
+*/
+body 
+{
+  margin: 0;
+  font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: #222;
+  background-color:hsl(51, 100%, 96%);
+  line-height: 1.6;
+}
+
+/*---------------------------- Header--------------------------- */
+.site-header {
+  background-color: hsl(51, 100%, 96%);
+  color: #047857;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+nav a {
+  color: #047857;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: #008060;
+}
+
+/* -----------------------------Hero Section------------------------ */
+.hero {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 700px;
+  color: white;
+}
+.tagline {
+  display: inline-block;
+  background-color: #d1fae5;
+  color: #065f46;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.hero h1 {
+  font-size: 36px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+.hero p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.btn {
+  background-color: #047857;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/*----------------- About Section-------------- */
+#about {
+  background-color: #fdf6ec;
+  padding: 60px 20px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 30px;
+  flex: 1;
+  min-width: 320px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h2 {
+  font-size: 1.7rem;         
+  font-weight: 800;          
+  color: #111;               
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;    
+}
+
+.items p 
+{
+  font-size: 0.9rem;
+  margin: 0;
+}
+.card p
+{
+ line-height: 1.6;
+  margin-bottom: 10px;
+}
+.quote {
+  font-size: 1rem;
+}
+.tags {
+  margin-top: 15px;
+}
+
+.tags span {
+  display: inline-block;
+  background-color: #f3f4f6;
+  color: #000000;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-right: 5px;
+  margin-bottom: 5px;
+} 
+
+
+/* ----------------------Menu Section--------------- --------*/
+#menu {
+  background-color: #faf7f2;
+  padding: 60px 20px;
+  text-align: left;
+}
+.menu-section h2 {
+  font-size: 1.7rem;         
+  font-weight: 800;          
+  color: #111;               
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+.menu-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.menu-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+}
+.menu-card h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.menu-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+.menu-item h4 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.menu-item span {
+  color: #008060;
+}
+.menu-item p 
+{
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Hours Section */
+#hours {
+  background-color: #fff7ed;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hours-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  flex-wrap: wrap; 
+}
+
+#hours .card {
+  display: flex;
+  justify-content: left;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 350px;
+  text-align: left;
+   
+}
+
+#hours h2 {
+  font-size: 1.7rem;         
+  font-weight: 800;          
+  color: #111;
+  margin-bottom: 15px;
+}
+
+#hours ul
+ { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#hours li {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #000000;      
+  font-weight: 700;          
+  
+}
+
+#hours p {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+#hours .note p {
+  font-size: 1rem;
+  color: #000000;
+ 
+}
+.color strong
+{ color: #047857;}
+.menu-item li {
+   border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+/* Find Us Section */
+#find-us {
+  background-color: #fdf7f1;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.location-container {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  gap: 20px;
+}
+
+.location-info, .location-map {
+  flex: 1;
+  border-radius: 12px;
+}
+
+.location-info {
+  background: white;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.location-info h2 {
+   font-size: 1.7rem;         
+  font-weight: 800;          
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.location-info .small-text {
+  color: #777;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.location-map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+/*------------------------------------ Footer ------------------------------*/
+.site-footer {
+  background-color: #fff7ed;
+  color: rgb(145, 143, 143);
+  text-align: center;
+  padding: 15px;
+}
+.site-footer a {
+  color: #008060;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------------------Responsive -----------------------------------*/
+@media (max-width: 768px) 
+{
+  .site-header {
+    flex-direction: column;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+  .menu-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-container 
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+ .site-footer {
+  flex-direction: column;
+    align-items: center;
+ }
+ .location-container {
+  flex-direction: column;
+    align-items: center;
+}
+}
