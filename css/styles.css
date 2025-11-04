@@ -84,7 +84,7 @@ nav a:hover {
 
 /*----------------- About Section-------------- */
 #about {
-  background-color: #fdf6ec;
+  background-color: hsl(51, 100%, 96%);
   padding: 60px 20px;
 }
 
@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 .card {
-  background-color: #fff;
+  background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 30px;
@@ -149,7 +149,7 @@ nav a:hover {
 
 /* ----------------------Menu Section--------------- --------*/
 #menu {
-  background-color: #faf7f2;
+  background-color: hsl(51, 100%, 96%);
   padding: 60px 20px;
   text-align: left;
 }
@@ -168,7 +168,7 @@ nav a:hover {
   flex-wrap: wrap;
 }
 .menu-card {
-  background-color: #fff;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   width: 300px;
@@ -202,7 +202,7 @@ nav a:hover {
 
 /* Hours Section */
 #hours {
-  background-color: #fff7ed;
+  background-color: hsl(51, 100%, 96%);
   padding: 60px 20px;
   text-align: center;
 }
@@ -218,7 +218,7 @@ nav a:hover {
 #hours .card {
   display: flex;
   justify-content: left;
-  background-color: #fff;
+  background-color: white;
   border-radius: 15px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -272,7 +272,7 @@ nav a:hover {
 
 /* Find Us Section */
 #find-us {
-  background-color: #fdf7f1;
+  background-color: hsl(51, 100%, 96%);
   padding: 50px 20px;
   display: flex;
   justify-content: center;
@@ -319,7 +319,7 @@ nav a:hover {
 
 /*------------------------------------ Footer ------------------------------*/
 .site-footer {
-  background-color: #fff7ed;
+  background-color: hsl(51, 100%, 96%);
   color: rgb(145, 143, 143);
   text-align: center;
   padding: 15px;
