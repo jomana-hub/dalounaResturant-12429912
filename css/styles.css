@@ -145,7 +145,10 @@ nav a:hover {
   margin-right: 5px;
   margin-bottom: 5px;
 } 
-
+.card.small-text p
+{
+  color: #929191;
+}
 
 /* ----------------------Menu Section--------------- --------*/
 #menu {
