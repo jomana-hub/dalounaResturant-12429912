@@ -16,7 +16,7 @@ body
 .site-header {
   background-color: hsl(51, 100%, 96%);
   color: #047857;
-  padding: 15px 30px;
+  padding: 1px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
