@@ -6,7 +6,8 @@
 body 
 {
   margin: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: medium;
   color: #222;
   background-color:hsl(51, 100%, 96%);
   line-height: 1.6;
